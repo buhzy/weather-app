@@ -12,6 +12,10 @@
 		8405F295202C99D800A55A80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8405F293202C99D800A55A80 /* Main.storyboard */; };
 		8405F297202C99D800A55A80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8405F296202C99D800A55A80 /* Assets.xcassets */; };
 		8405F29A202C99D800A55A80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8405F298202C99D800A55A80 /* LaunchScreen.storyboard */; };
+		8405F2A2202CB8EA00A55A80 /* WeatherButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8405F2A1202CB8EA00A55A80 /* WeatherButton.swift */; };
+		848D9AAB202D1CB400892CD3 /* WeatherServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848D9AAA202D1CB400892CD3 /* WeatherServices.swift */; };
+		84C03529202DEAE9003080BB /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C03528202DEAE9003080BB /* Weather.swift */; };
+		84C0352D202E0BF1003080BB /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C0352C202E0BF1003080BB /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		8405F296202C99D800A55A80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8405F299202C99D800A55A80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8405F29B202C99D800A55A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8405F2A1202CB8EA00A55A80 /* WeatherButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherButton.swift; sourceTree = "<group>"; };
+		848D9AAA202D1CB400892CD3 /* WeatherServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherServices.swift; sourceTree = "<group>"; };
+		84C03528202DEAE9003080BB /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		84C0352C202E0BF1003080BB /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +63,12 @@
 			isa = PBXGroup;
 			children = (
 				8405F28F202C99D800A55A80 /* AppDelegate.swift */,
+				84C0352C202E0BF1003080BB /* SwiftyJSON.swift */,
+				84C03528202DEAE9003080BB /* Weather.swift */,
 				8405F291202C99D800A55A80 /* ViewController.swift */,
 				8405F293202C99D800A55A80 /* Main.storyboard */,
+				848D9AAA202D1CB400892CD3 /* WeatherServices.swift */,
+				8405F2A1202CB8EA00A55A80 /* WeatherButton.swift */,
 				8405F296202C99D800A55A80 /* Assets.xcassets */,
 				8405F298202C99D800A55A80 /* LaunchScreen.storyboard */,
 				8405F29B202C99D800A55A80 /* Info.plist */,
@@ -136,8 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848D9AAB202D1CB400892CD3 /* WeatherServices.swift in Sources */,
 				8405F292202C99D800A55A80 /* ViewController.swift in Sources */,
 				8405F290202C99D800A55A80 /* AppDelegate.swift in Sources */,
+				84C0352D202E0BF1003080BB /* SwiftyJSON.swift in Sources */,
+				8405F2A2202CB8EA00A55A80 /* WeatherButton.swift in Sources */,
+				84C03529202DEAE9003080BB /* Weather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
